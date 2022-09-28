@@ -112,61 +112,39 @@
 		},
 		{
 			"offsets": [
-				14,
-				18
+				37,
+				11
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "hurt",
+			"anim": "firstDeath",
 			"indices": [],
-			"name": "BF hit"
+			"name": "BF dies"
 		},
 		{
 			"offsets": [
-				-4,
-				0
+				37,
+				69
 			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "BF Dead confirm"
+		},
+		{
 			"loop": true,
-			"fps": 24,
-			"anim": "scared",
-			"indices": [],
-			"name": "BF idle shaking"
-		},
-		{
 			"offsets": [
-				-10,
-				-16
+				37,
+				5
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "dodge",
-			"indices": [],
-			"name": "boyfriend dodge"
-		},
-		{
-			"offsets": [
-				294,
-				267
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "attack",
-			"indices": [],
-			"name": "boyfriend attack"
-		},
-		{
-			"offsets": [
-				-40,
-				-40
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "pre-attack",
-			"indices": [],
-			"name": "bf pre attack"
+			"anim": "deathLoop",
+			"fps": 1,
+			"name": "BF Dead Loop",
+			"indices": []
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/BOYFRIEND",
 	"position": [
 		0,
